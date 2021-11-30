@@ -8,6 +8,7 @@
     "start": "webpack serve --config ./webpack.config.js --mode development"
   },
   "dependencies": {
+    "@vaadin/router": "^1.7.4",
     "uig-webcomponents": "1.1.1"
   },
   "author": "",

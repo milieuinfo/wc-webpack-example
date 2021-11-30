@@ -1,9 +1,14 @@
+import { Router } from "@vaadin/router";
 import "uig-webcomponents/lib/components/body";
-import "uig-webcomponents/lib/components/body/styles.css";
-import "uig-webcomponents/lib/components/grid";
-import "uig-webcomponents/lib/components/template";
-import "uig-webcomponents/lib/components/content-header";
-import "uig-webcomponents/lib/components/titles";
-import "uig-webcomponents/lib/components/titles/styles.css";
-import "uig-webcomponents/lib/components/typography";
-import "uig-webcomponents/lib/components/accordion";
+import "./views/home.js";
+
+const routes = [
+  {
+    path: "/",
+    component: "page-home",
+  },
+];
+
+const app = document.getElementById("app");
+export const router = new Router(app);
+router.setRoutes(routes);
