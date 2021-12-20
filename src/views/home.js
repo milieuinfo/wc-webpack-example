@@ -7,6 +7,7 @@ import "uig-webcomponents/lib/components/grid";
 import "uig-webcomponents/lib/components/image";
 import "uig-webcomponents/lib/components/image/styles.css";
 import "uig-webcomponents/lib/components/typography";
+import data from "../../package.json";
 export class Home extends LitElement {
   render() {
     return html`<vl-template>
@@ -41,7 +42,7 @@ export class Home extends LitElement {
           <a
             slot="title-link"
             href="https://uig-webcomponents.omgeving.vlaanderen.be/"
-            >Examples</a
+            >${data.dependencies["uig-webcomponents"]}</a
           >
         </vl-content-header>
         <section is="vl-region">
