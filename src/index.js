@@ -1,12 +1,17 @@
 import { Router } from "@vaadin/router";
 import "uig-webcomponents/lib/components/body";
 import "uig-webcomponents/lib/components/body/styles.css";
-import "./views/home.js";
+import "./views/home";
+import "./views/video-player-view";
 
 const routes = [
   {
     path: "/",
     component: "page-home",
+  },
+  {
+    path: "/video-player",
+    component: "video-player-view",
   },
 ];
 
