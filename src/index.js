@@ -1,6 +1,7 @@
 import { Router } from "@vaadin/router";
 import "uig-webcomponents/lib/components/body";
 import "uig-webcomponents/lib/components/body/styles.css";
+import "./components/template";
 import "./views/home";
 import "./views/video-player-view";
 
