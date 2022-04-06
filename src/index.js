@@ -4,6 +4,7 @@ import "uig-webcomponents/lib/components/body/styles.css";
 import "./components/template";
 import "./views/home";
 import "./views/video-player-view";
+import "./views/map-view";
 
 const routes = [
   {
@@ -13,6 +14,10 @@ const routes = [
   {
     path: "/video-player",
     component: "video-player-view",
+  },
+  {
+    path: "/map",
+    component: "map-view",
   },
 ];
 
