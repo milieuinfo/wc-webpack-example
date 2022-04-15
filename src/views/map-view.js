@@ -95,8 +95,7 @@ export class MapView extends LitElement {
             <vl-map-wfs-layer
                 data-vl-name="Stromend waterlichamen"
                 data-vl-url="https://geoserver.vmm.be/geoserver/vmm/wfs"
-                data-vl-layers="owl_l"
-                data-vl-max-resolution="4">
+                data-vl-layers="owl_l">
           </vl-map-filtered-modify-action>
           <vl-map-filtered-delete-action id="delete-action"></vl-map-filtered-delete-action>
         </vl-map-features-layer>
