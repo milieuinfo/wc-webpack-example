@@ -1,10 +1,11 @@
 import { LitElement, html } from "lit-element";
 import "uig-webcomponents/lib/components/video-player";
 import "uig-webcomponents/lib/components/video-player/styles.css";
+import { wrap } from "../templates/wrap";
 
 export class VideoPlayerView extends LitElement {
   render() {
-    return html`<app-template>
+    return wrap(html`<div is="vl-column" data-vl-size="12">
       <video
         is="vl-video-player"
         poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg?v1"
@@ -44,7 +45,7 @@ export class VideoPlayerView extends LitElement {
           Download
         </a>
       </video>
-    </app-template>`;
+    </div> `);
   }
 
   createRenderRoot() {
