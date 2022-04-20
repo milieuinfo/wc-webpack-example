@@ -9,8 +9,12 @@
   },
   "dependencies": {
     "@vaadin/router": "^1.7.4",
+<<<<<<< HEAD
     "uig-webcomponents": "2.3.1",
     "webcomponenten-vl-ui-bom": "4.1.0"
+=======
+    "uig-webcomponents": "2.3.1"
+>>>>>>> 373cf77df47b59b103e6b58095197d2f8672de1c
   },
   "author": "",
   "license": "ISC",
