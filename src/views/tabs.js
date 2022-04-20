@@ -37,4 +37,4 @@ export class TabsView extends LitElement {
   }
 }
 
-customElements.define("page-tabs", TabsView);
+customElements.define("tabs-view", TabsView);

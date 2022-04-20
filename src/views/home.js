@@ -65,4 +65,4 @@ export class Home extends LitElement {
   }
 }
 
-customElements.define("page-home", Home);
+customElements.define("home-view", Home);
