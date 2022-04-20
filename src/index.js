@@ -12,17 +12,24 @@ const routes = [
     },
   },
   {
+    path: "/tabs",
+    component: "page-tabs",
+    action: async () => {
+      await import("./views/tabs");
+    },
+  },
+  {
     path: "/video-player",
     component: "video-player-view",
     action: async () => {
-      await import("./views/video-player-view");
+      await import("./views/video-player");
     },
   },
   {
     path: "/map",
     component: "map-view",
     action: async () => {
-      await import("./views/map-view");
+      await import("./views/map");
     },
   },
 ];
