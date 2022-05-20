@@ -5,6 +5,12 @@ import "uig-webcomponents/lib/components/footer";
 import "uig-webcomponents/lib/components/grid";
 import "uig-webcomponents/lib/components/body/styles.css";
 import "uig-webcomponents/lib/components/template";
+import "uig-webcomponents/lib/components/content-header";
+import "uig-webcomponents/lib/components/image";
+import "uig-webcomponents/lib/components/image/styles.css";
+import "uig-webcomponents/lib/components/titles/styles.css";
+import "uig-webcomponents/lib/components/titles";
+import "uig-webcomponents/lib/components/typography";
 
 const routes = [
   {
@@ -40,6 +46,13 @@ const routes = [
     component: "upload-view",
     action: async () => {
       await import("./views/upload");
+    },
+  },
+  {
+    path: "/form",
+    component: "form-view",
+    action: async () => {
+      await import("./views/form");
     },
   },
 ];
